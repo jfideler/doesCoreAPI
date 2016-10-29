@@ -13,9 +13,9 @@ namespace DoesCoreAPI.Controllers
         public string Get()
         {
             var jsonString = System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/content/" + "links.json");
-            var jsonStringTest = System.IO.File.ReadAllText("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
+            //var jsonStringTest = System.IO.File.ReadAllText("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
             System.Console.WriteLine(Directory.GetCurrentDirectory() + "/content/" + "links.json");
-            System.Console.WriteLine("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
+            //System.Console.WriteLine("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
             return jsonString.ToString();
         }
 
