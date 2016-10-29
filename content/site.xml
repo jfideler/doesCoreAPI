@@ -1,0 +1,73 @@
+﻿<site>
+  <navigation>
+    <links>
+      <link id="home">
+        <title>Eagan Tech - Home.</title>
+        <Url>#!/main</Url>
+        <label>Home</label>
+      </link>
+      <link id="services">
+        <title>Eagan Tech - Services.</title>
+        <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+        <label>Services</label>
+        <sublink id="services.assembly">
+          <title>Eagan Tech - Assembly.</title>
+          <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <label>Assembly Services</label>
+        </sublink>
+        <sublink id="services.mechanical">
+          <title>Eagan Tech - Mechanical.</title>
+          <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <label>Mechanical Services</label>
+        </sublink>
+        <sublink id="services.copierprinters">
+          <title>Eagan Tech - Mechanical.</title>
+          <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <label>Copier, Laser, High Speed Printer"</label>
+        </sublink>
+        <sublink id="services.siliconrubbermolding">
+          <label>"Silicone and Rubber Molding"</label>
+          <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <title> Mechanical Services</title>
+        </sublink>
+        <sublink id="services.schematics">
+          <label>Schematics</label>
+          <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <title>"Mechanical Services"</title>
+        </sublink>
+        <sublink id="services.reverseengineering">
+          <label>Reverse Engineering</label>
+          <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <title> Mechanical Services</title>
+        </sublink>
+      </link>
+      <link id= "products">
+        <label>Products</label>
+        <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg"</Url>
+        <title> Eagan Tech - Products. </title>
+        <sublink id="products.pvd">
+          <label>Pressure Vapor Deposition</label>
+          
+          <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <title> ETS: Pressure Vapor Deposition </title>
+        </sublink>
+        <sublink id="products.other">
+          <label>Other Products</label>
+          <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <title> ETS: Other Products </title>
+        </sublink>
+      </link>
+    <link id="contact">
+        <title>Eagan Tech - Contact.</title>
+        <Url>#!/contact</Url>
+        <label>Contact</label>
+      </link>
+      <link id="about">
+        <title>Eagan Tech - About</title>
+        <Url>#!/about</Url>
+        <label>About</label>
+      </link>
+  
+    </links>
+  </navigation>
+</site>

@@ -1,0 +1,103 @@
+﻿[
+  {
+    "label": "Home",
+    "id": "home",
+    "Url": "#/eagan",
+    "title": "Eagan Tech - Home."
+  },
+  {
+    "label": "Services",
+    "id": "services",
+    "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "title": "Eagan Tech - Services.",
+    "sublinks": [
+      {
+        "label": "Assembly",
+        "id": "services.assembly",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Assembly Services"
+      },
+      {
+        "label": "Mechanical",
+        "id": "services.mechanical",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Mechanical Services"
+      },
+      {
+        "label": "Copier, Laser, High Speed Printer",
+        "id": "services.copierprinters",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Mechanical Services"
+      },
+      {
+        "label": "Silicone and Rubber Molding",
+        "id": "services.siliconrubbermolding",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Mechanical Services"
+      },
+      {
+        "label": "Schematics",
+        "id": "services.schematics",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Mechanical Services"
+      },
+      {
+        "label": "Reverse Engineering",
+        "id": "services.reverseengineering",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "Mechanical Services"
+      }
+    ]
+  },
+  {
+    "label": "Products",
+    "id": "products",
+    "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "title": "Eagan Tech - Products.",
+    "sublinks": [
+      {
+        "label": "Pressure Vapor Deposition",
+        "id": "products.pvd",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "ETS: Pressure Vapor Deposition"
+      },
+      {
+        "label": "Other Products",
+        "id": "products.other",
+        "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+        "title": "ETS: Other Products"
+      }
+    ]
+  },
+  {
+    "label": "Contact",
+    "id": "contact",
+    "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "title": "Contact Eagan Tech."
+  },
+  {
+    "label": "About",
+    "id": "about",
+    "Url": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "title": "About Eagan Tech.",
+    "content":  "All about this stuff here!."
+  },
+  {
+    "label": "My Home",
+    "id": "myhome",
+    "Url": "#/",
+    "title": "Angular sandbox home"
+  },
+  {
+    "label": "Blogs!",
+    "id": "bloglist",
+    "Url": "#/blog-list",
+    "title": "Angular sandbox blogs"
+  },
+  {
+    "label": "My About",
+    "id": "myabout",
+    "Url": "#/about",
+    "title": "Angular sandbox About"
+  }
+]
