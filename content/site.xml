@@ -1,68 +1,178 @@
 ﻿<site>
+<content>
+<pages>
+<page id="home">
+ <section>
+ <h1>Welcome to Eagan Technical Services</h1>
+<p>
+  <img src="images/etsSamples.jpg" alt="PVD" style="float:right; margin:0 0 12px 18px;"/>
+
+is an engineering firm located near the Minneapolis-St. Paul International Airport
+    in Minnesota. We provide unusual talent and skills to take on projects other firms have turned down.
+    Founded by engineers in 1991, we are able to relate to engineers.
+    <br/>
+    <br/>
+    You will not talk to sales people at Eagan Technical Services.
+    You will only talk to engineers who understand your technical needs and can give you a 'yes' or 'no' answer on your
+    projects quickly - allowing you to focus on other aspects of your project.<br/>
+    <br/>
+    Give Eagan Technical Services a try; we succeed where others have failed.
+</p>
+<p>
+    We are excited to announce the arrival of our new PVD machine. Medical, industrial and custom jobs--whether
+    they are small, medium or large volume--are no problem. We have the experience and ability to work through
+    any design problem or situation. Custom built to our specifications we can coat any of your critical
+    parts with any of the standard coatings (TiN, CrN, AlTiN) along with any custom material you need.
+    We have sputtering capability also.
+
+</p>
+
+
+ </section>
+</page>
+<page id="about">
+<section class="content-wrapper main-content clear-fix">
+                                
+
+<h1>About Us</h1>
+<p>
+    Eagan Technical Services, Inc. has been proudly serving the Mendota Heights, Minnesota area for 20 years.
+    We have built our customer base through hard work and determination, something that has allowed us to become the company we are today.
+    We take great pride in providing you with top-level service and promise complete satisfaction when choosing us for all
+    of your industrial material needs.
+</p>
+
+<h1>Our Philosophy</h1>
+
+<p>
+    Eagan Technical Services, Inc. provides business, industry and government with electronic software and mechanical contract engineering.
+    Our size gives us flexibility, ensuring a quick turn-around for the custom project.
+    From assistance in initial design and prototyping to complete assembly, we work with you to deliver a quality product.
+</p>
+
+<p>
+    We are excited to announce our silicone and rubber molding capabilities. Medical, industrial and custom jobs--whether they are small,
+    medium or large volume--are no problem. We have the experience and ability to work through any design problem or situation.
+    We insert mold or custom blend materials and colors. We offer low cost tooling for small volume jobs, or can tool for multiple
+    cavities and lower the cost of parts. Silicone molding is a specialized fieldâ-and we have the experience to make your idea a success.
+    Eagan Technical Services, Inc., succeeding where others fail.
+</p>
+</section>
+</page>
+
+<page id="contact">
+<section class="content-wrapper main-content clear-fix">
+                                
+
+<h1>Contact Us</h1>
+<p>Eagan Technical Services, Inc. provides assembly, electronics and mechanical for Mendota Heights, Minnesota and the surrounding areas. Contact us today for more information. We always enjoy hearing from our customers, whether they are returning or new and we look forward to earning your business and trust.</p>
+<div style="float:left; width:276px;">
+    <p>
+        <strong>Eagan Technical Services, Inc.</strong><br/>
+        1408 Northland Drive #304 <br/>
+        Mendota Heights, Minnesota 55120<br/>
+        Phone: 651.688.0098<br/>
+        <a href="mailto:sales@eagantech.com">E-mail</a>
+    </p>
+</div>
+<div style="float:left; width:276px;">
+    <p style="margin:0;"><strong>Hours of Operation:</strong></p>
+    <table>
+        <tbody><tr><td>Monday:</td> <td>7:00 AM - 3:00 PM</td></tr>
+        <tr> <td>Tuesday:</td> <td>7:00 AM - 3:00 PM</td></tr>
+        <tr> <td>Wednesday:</td> <td>7:00 AM - 3:00 PM</td></tr>
+        <tr> <td>Thursday:</td> <td>7:00 AM - 3:00 PM</td></tr>
+        <tr> <td>Friday:</td> <td>7:00 AM - 3:00 PM</td></tr>
+        <tr>  <td>Saturday:</td> <td>Closed</td></tr>
+        <tr> <td>Sunday:</td> <td>Closed</td></tr>
+    </tbody></table>
+    <div style="clear:both;"></div>
+</div>
+<div style="float:left; width:276px;">
+    <iframe style="border:1px solid #ffffff;" width="276" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;output=embed"></iframe>
+    <br/>
+    <small><a target="_blank" href="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;source=embed" style="text-align:left;" class="a_map">View Larger Map</a></small>
+</div>
+
+                            </section>
+</page>
+</pages>
   <navigation>
     <links>
       <link id="home">
+       <pageid>home</pageid>
         <title>Eagan Tech - Home.</title>
         <Url>#!/main</Url>
         <label>Home</label>
       </link>
       <link id="services">
+      <pageid>services</pageid>
         <title>Eagan Tech - Services.</title>
         <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
         <label>Services</label>
         <sublink id="services.assembly">
+        <pageid>services.assembly</pageid>
           <title>Eagan Tech - Assembly.</title>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <label>Assembly Services</label>
         </sublink>
-        <sublink id="services.mechanical">
+        <sublink>
+        <pageid>services.mechanical</pageid>
           <title>Eagan Tech - Mechanical.</title>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <label>Mechanical Services</label>
         </sublink>
-        <sublink id="services.copierprinters">
+        <sublink>
+        <pageid>services.copierprinters</pageid>
           <title>Eagan Tech - Mechanical.</title>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <label>Copier, Laser, High Speed Printer"</label>
         </sublink>
-        <sublink id="services.siliconrubbermolding">
+        <sublink>
+        <pageid>services.siliconrubbermolding</pageid>
           <label>"Silicone and Rubber Molding"</label>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <title> Mechanical Services</title>
         </sublink>
         <sublink id="services.schematics">
+        <pageid>services.schematics</pageid>
           <label>Schematics</label>
           <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <title>"Mechanical Services"</title>
         </sublink>
         <sublink id="services.reverseengineering">
+        <pageid>services.reverseengineering</pageid>
           <label>Reverse Engineering</label>
           <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <title> Mechanical Services</title>
         </sublink>
       </link>
       <link id= "products">
+      <pageid>products</pageid>
         <label>Products</label>
         <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg"</Url>
         <title> Eagan Tech - Products. </title>
         <sublink id="products.pvd">
+        <pageid>products.pvd</pageid>
           <label>Pressure Vapor Deposition</label>
-          
           <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <title> ETS: Pressure Vapor Deposition </title>
         </sublink>
         <sublink id="products.other">
+        <pageid>products.other</pageid>
           <label>Other Products</label>
           <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
           <title> ETS: Other Products </title>
         </sublink>
       </link>
     <link id="contact">
+    <pageid>contact</pageid>
         <title>Eagan Tech - Contact.</title>
         <Url>#!/contact</Url>
         <label>Contact</label>
       </link>
-      <link id="about">
+      <link >
+      <pageid>about</pageid>
         <title>Eagan Tech - About</title>
         <Url>#!/about</Url>
         <label>About</label>
@@ -70,4 +180,5 @@
   
     </links>
   </navigation>
+  </content>
 </site>

@@ -12,6 +12,7 @@ namespace DoesCoreAPI.Controllers
         [HttpGet]
         public string Get()
         {
+            System.Console.Write("I am in nav...");
             var jsonString = System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/content/" + "links.json");
             //var jsonStringTest = System.IO.File.ReadAllText("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
             System.Console.WriteLine(Directory.GetCurrentDirectory() + "/content/" + "links.json");

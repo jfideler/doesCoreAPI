@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using DoesCoreAPI.util;
+﻿using DoesCoreAPI.util;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml;
@@ -14,23 +13,48 @@ namespace DoesCoreAPI.Controllers
     {
         // GET: api/values
         [HttpGet]
-        public JsonResult Get()
+        public string Get()
         {
+            System.Console.Write("I am in home...");
             var cm = new ContentManager();
 
             XmlDocument result = cm.nodeResult();
-            XDocument document = XDocument.Parse(result.InnerXml);   
-                     
-            string jsonLinks = JsonConvert.SerializeXNode(document);
+            XDocument document = XDocument.Parse(result.InnerXml);
 
-            return Json(jsonLinks);
+            string jsonLinks = JsonConvert.SerializeXNode(document);
+            //System.Console.WriteLine(jsonLinks);
+
+            //return Json(jsonLinks);
+            return jsonLinks;
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get(string id)
         {
-            return "value";
+            var cm = new ContentManager();
+            string retVal = "<section><h1>This page is under construction...</h1></section>";
+
+            XmlDocument result = cm.nodeResult();
+            System.Console.WriteLine(result != null ? "Got result" : "got no result");
+
+            XmlNodeList list = result.GetElementsByTagName("page");
+            System.Console.WriteLine(result != null ? "Got pages " + list.Count.ToString() : "got no pages");
+
+            foreach (XmlNode node in list)
+            {
+                if (node.Attributes != null)
+                {
+                    var nameAttribute = node.Attributes["id"];
+                    if (nameAttribute != null && nameAttribute.Value == id){
+                        retVal=node.InnerXml.ToString();
+                       System.Console.WriteLine("here's the page " + node.InnerXml.ToString());  
+                       return retVal;
+                    }      
+                }
+            }
+
+            return retVal.ToString();
         }
 
         // POST api/values

@@ -12,8 +12,11 @@ namespace DoesCoreAPI.util
 
         public ContentManager()
         {
-            var xmlString = new FileStream(Directory.GetCurrentDirectory() + "\\content\\" + _mainDocument, FileMode.Open, FileAccess.Read);
+          
+            var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
 
+            System.Console.WriteLine("about to parse..." + filePath);
+            var xmlString = new FileStream(filePath, FileMode.Open, FileAccess.Read);
 
             using (XmlReader reader = XmlReader.Create(xmlString))
             {
