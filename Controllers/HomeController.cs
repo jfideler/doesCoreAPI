@@ -35,8 +35,12 @@ namespace DoesCoreAPI.Controllers
             var cm = new ContentManager();
             string retVal = "<section><h1>This page is under construction...</h1></section>";
 
+            if(id.Contains(".")){
+                id=id.Split('.')[0];
+            }
+
             XmlDocument result = cm.nodeResult();
-            System.Console.WriteLine(result != null ? "Got result" : "got no result");
+            //System.Console.WriteLine(result != null ? "Got result" : "got no result");
 
             XmlNodeList list = result.GetElementsByTagName("page");
             System.Console.WriteLine(result != null ? "Got pages " + list.Count.ToString() : "got no pages");
@@ -48,7 +52,7 @@ namespace DoesCoreAPI.Controllers
                     var nameAttribute = node.Attributes["id"];
                     if (nameAttribute != null && nameAttribute.Value == id){
                         retVal=node.InnerXml.ToString();
-                       System.Console.WriteLine("here's the page " + node.InnerXml.ToString());  
+                       // System.Console.WriteLine("here's the page " + node.InnerXml.ToString());  
                        return retVal;
                     }      
                 }

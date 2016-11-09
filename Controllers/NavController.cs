@@ -1,6 +1,10 @@
 ﻿using System.IO;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using DoesCoreAPI.util;
+using System.Xml;
+using Newtonsoft.Json;
+using System.Xml.Linq;
 
 namespace DoesCoreAPI.Controllers
 {
@@ -15,18 +19,28 @@ namespace DoesCoreAPI.Controllers
             System.Console.Write("I am in nav...");
             var jsonString = System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/content/" + "links.json");
             //var jsonStringTest = System.IO.File.ReadAllText("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
-            System.Console.WriteLine(Directory.GetCurrentDirectory() + "/content/" + "links.json");
+            //System.Console.WriteLine(Directory.GetCurrentDirectory() + "/content/" + "links.json");
             //System.Console.WriteLine("/Users/jfidele/data/DoesCoreAPI/" + "content/" + "links.json");
             return jsonString.ToString();
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{site}")]
+        public string Get(string site)
         {
-            return "value";
+           System.Console.Write("I am in nav for " + site);
+           var cm = new ContentManager(site);
+
+            XmlDocument result = cm.nodeResult();
+            XDocument document = XDocument.Parse(result.InnerXml);
+
+            string jsonLinks = JsonConvert.SerializeXNode(document);
+            //System.Console.WriteLine(jsonLinks);
+
+            //return Json(jsonLinks);
+            return jsonLinks;
         }
 
-    
+        
     }
 }

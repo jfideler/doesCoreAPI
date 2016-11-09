@@ -6,5 +6,5 @@ dist/
 tmp
 .DS_Store
 .idea
-*.pdb
-*.dll
+.pdb
+.dll

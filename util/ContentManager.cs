@@ -6,13 +6,27 @@ namespace DoesCoreAPI.util
 {
     public class ContentManager
     {
-
         private XmlDocument _doc = new XmlDocument();
-        private const string _mainDocument = "site.xml"; 
+        private string _mainDocument = "site.xml"; 
 
         public ContentManager()
         {
-          
+           var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
+
+            System.Console.WriteLine("about to parse..." + filePath);
+            var xmlString = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+
+            using (XmlReader reader = XmlReader.Create(xmlString))
+            {
+                reader.MoveToContent();
+                reader.Read();
+                _doc.Load(reader);
+            }
+        }
+
+        public ContentManager(string site){
+
+            _mainDocument=site + ".xml";
             var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
 
             System.Console.WriteLine("about to parse..." + filePath);
@@ -49,7 +63,6 @@ namespace DoesCoreAPI.util
 
             return result;
         }
-
         public XmlDocument nodeResult()
         {
             //XmlNodeList xnList = _doc.GetElementsByTagName(segment);

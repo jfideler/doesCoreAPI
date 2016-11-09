@@ -240,16 +240,16 @@
     <navigation>
       <links>
         <link id="home">
-          <pageid>home</pageid>
-          <title>Eagan Tech - Home.</title>
+          <pageid>lurch</pageid>
+          <title> Tech - Home.</title>
           <Url>#!/main</Url>
-          <label>Home</label>
+          <label>lurch...</label>
         </link>
-        <link id="services">
-          <pageid>services</pageid>
-          <title>Eagan Tech - Services.</title>
+        <link id="paintings">
+          <pageid>paintings</pageid>
+          <title>Lurch Montgomery- paintings.</title>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
-          <label>Services</label>
+          <label>paintings</label>
           <sublink id="services.assembly">
             <pageid>services.assembly</pageid>
             <title>Eagan Tech - Assembly.</title>
@@ -287,24 +287,7 @@
             <title> Mechanical Services</title>
           </sublink>
         </link>
-        <link id= "products">
-          <pageid>products</pageid>
-          <label>Products</label>
-          <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg"</Url>
-          <title> Eagan Tech - Products. </title>
-          <sublink id="products.pvd">
-            <pageid>products.pvd</pageid>
-            <label>Pressure Vapor Deposition</label>
-            <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
-            <title> ETS: Pressure Vapor Deposition </title>
-          </sublink>
-          <sublink id="products.other">
-            <pageid>products.other</pageid>
-            <label>Other Products</label>
-            <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
-            <title> ETS: Other Products </title>
-          </sublink>
-        </link>
+     
         <link id="contact">
           <pageid>contact</pageid>
           <title>Eagan Tech - Contact.</title>
