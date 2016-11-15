@@ -7,11 +7,11 @@ namespace DoesCoreAPI.util
     public class ContentManager
     {
         private XmlDocument _doc = new XmlDocument();
-        private string _mainDocument = "site.xml"; 
+        private string _mainDocument = "site.xml";
 
         public ContentManager()
         {
-           var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
+            var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
 
             System.Console.WriteLine("about to parse..." + filePath);
             var xmlString = new FileStream(filePath, FileMode.Open, FileAccess.Read);
@@ -24,9 +24,10 @@ namespace DoesCoreAPI.util
             }
         }
 
-        public ContentManager(string site){
+        public ContentManager(string site)
+        {
 
-            _mainDocument=site + ".xml";
+            _mainDocument = site + ".xml";
             var filePath = Directory.GetCurrentDirectory() + "/content/" + _mainDocument;
 
             System.Console.WriteLine("about to parse..." + filePath);
@@ -56,18 +57,43 @@ namespace DoesCoreAPI.util
         {
             XmlNodeList xnList = _doc.GetElementsByTagName("link");
             List<string> result = new List<string>();
-            foreach(var node in xnList)
+            foreach (var node in xnList)
             {
                 result.Add(((System.Xml.XmlNode)node).FirstChild.InnerText);
             }
 
             return result;
         }
-        public XmlDocument nodeResult()
+        public XmlNode nodeResult(string parttype, string sitepart = null)
         {
-            //XmlNodeList xnList = _doc.GetElementsByTagName(segment);
-            
-            return _doc;
+            System.Console.WriteLine("about to return node result..." + sitepart);
+            XmlNode retVal = null;
+
+
+
+            if (sitepart == null)
+            {
+                var listresult=_doc.GetElementsByTagName(parttype);
+                return listresult[0];
+            }
+            else
+            {
+                var listresult = _doc.GetElementsByTagName(parttype);
+                System.Console.WriteLine("result - " + listresult.Count);
+                foreach (XmlNode node in listresult)
+                {
+                    if (node.Attributes != null)
+                    {
+                        var nameAttribute = node.Attributes["id"];
+                        if (nameAttribute != null && nameAttribute.Value == sitepart)
+                        {
+                            return node;
+                        }
+                    }
+                }
+            }
+
+            return retVal;
 
         }
 

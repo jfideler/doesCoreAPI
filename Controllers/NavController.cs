@@ -31,8 +31,8 @@ namespace DoesCoreAPI.Controllers
            System.Console.Write("I am in nav for " + site);
            var cm = new ContentManager(site);
 
-            XmlDocument result = cm.nodeResult();
-            XDocument document = XDocument.Parse(result.InnerXml);
+            XmlNode result = cm.nodeResult("links",null);
+            XDocument document = XDocument.Parse(result.ToString());
 
             string jsonLinks = JsonConvert.SerializeXNode(document);
             //System.Console.WriteLine(jsonLinks);

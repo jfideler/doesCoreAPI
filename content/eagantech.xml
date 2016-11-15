@@ -3,7 +3,7 @@
     <pages>
       <page id="home">
         <section class="content-wrapper main-content clear-fix">
-          <h1>Welcome to Lurch Montgomery</h1>
+          <h1>Welcome to Eagan Technical Services</h1>
           <p>
             <img src="app/content/images/etsSamples.jpg" alt="PVD" style="float:right; margin:0 0 12px 18px;"/>
 
@@ -240,16 +240,16 @@
     <navigation>
       <links>
         <link id="home">
-          <pageid>lurch</pageid>
-          <title> Tech - Home.</title>
+          <pageid>home</pageid>
+          <title>Eagan Tech - Home.</title>
           <Url>#!/main</Url>
-          <label>lurch...</label>
+          <label>Home</label>
         </link>
-        <link id="paintings">
-          <pageid>paintings</pageid>
-          <title>Lurch Montgomery- paintings.</title>
+        <link id="services">
+          <pageid>services</pageid>
+          <title>Eagan Tech - Services.</title>
           <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
-          <label>paintings</label>
+          <label>Services</label>
           <sublink id="services.assembly">
             <pageid>services.assembly</pageid>
             <title>Eagan Tech - Assembly.</title>
@@ -287,7 +287,24 @@
             <title> Mechanical Services</title>
           </sublink>
         </link>
-     
+        <link id= "products">
+          <pageid>products</pageid>
+          <label>Products</label>
+          <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg"</Url>
+          <title> Eagan Tech - Products. </title>
+          <sublink id="products.pvd">
+            <pageid>products.pvd</pageid>
+            <label>Pressure Vapor Deposition</label>
+            <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <title> ETS: Pressure Vapor Deposition </title>
+          </sublink>
+          <sublink id="products.other">
+            <pageid>products.other</pageid>
+            <label>Other Products</label>
+            <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <title> ETS: Other Products </title>
+          </sublink>
+        </link>
         <link id="contact">
           <pageid>contact</pageid>
           <title>Eagan Tech - Contact.</title>
