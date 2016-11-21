@@ -7,61 +7,40 @@ using System.Xml.Linq;
 
 namespace DoesCoreAPI.Controllers
 {
-    [Route("api/home/{sitename}/{parttype}/{partid?}")]
+    [Route("api/home/{sitename}/{parttype?}/{partid?}")]
     [EnableCors("AllowAll")]
     public class HomeController : Controller
     {
+        private const string _page = "page";
+
         // GET: api/values
         [HttpGet]
-        public string Get(string sitename, string parttype=null, string partid=null)
+        public string Get(string sitename, string parttype = null, string partid = null)
         {
-            System.Console.Write("home...retrieving " + parttype + " for " + sitename + "...");
+            XmlNode result;
             var cm = new ContentManager(sitename);
+            System.Console.Write("home...retrieving " + parttype + " for " + sitename + "...");
 
-            XmlNode result = cm.nodeResult(parttype,partid);
-            XDocument document = XDocument.Parse(result.OuterXml);
+            parttype = parttype ?? _page;
+            result = cm.nodeResult(parttype, partid);
 
-            if(document !=null){
-                  string jsonLinks = JsonConvert.SerializeXNode(document);
-                return jsonLinks;
+            if (parttype == _page)
+            {
+                return result.FirstChild.OuterXml;
             }
-            
+            else
+            {
+                XDocument document = XDocument.Parse(result.OuterXml);
+
+                if (document != null)
+                {
+                    string jsonLinks = JsonConvert.SerializeXNode(document);
+                    return jsonLinks;
+                }
+            }
+
             return "nothing found";
         }
-
-        // // GET api/values/5
-        // [Route("api/home/{sitename}/id")]
-        // [HttpGet("{id}")]
-        // public string Get(string sitename, string id)
-        // {
-        //     var cm = new ContentManager();
-        //     string retVal = "<section><h1>This page is under construction...</h1></section>";
-
-        //     if(id.Contains(".")){
-        //         id=id.Split('.')[0];
-        //     }
-
-        //     XmlDocument result = cm.nodeResult();
-        //     //System.Console.WriteLine(result != null ? "Got result" : "got no result");
-
-        //     XmlNodeList list = result.GetElementsByTagName("page");
-        //     System.Console.WriteLine(result != null ? "Got pages " + list.Count.ToString() : "got no pages");
-
-        //     foreach (XmlNode node in list)
-        //     {
-        //         if (node.Attributes != null)
-        //         {
-        //             var nameAttribute = node.Attributes["id"];
-        //             if (nameAttribute != null && nameAttribute.Value == id){
-        //                 retVal=node.InnerXml.ToString();
-        //                // System.Console.WriteLine("here's the page " + node.InnerXml.ToString());  
-        //                return retVal;
-        //             }      
-        //         }
-        //     }
-
-        //     return retVal.ToString();
-        // }
 
         // POST api/values
         [HttpPost]
