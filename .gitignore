@@ -3,8 +3,10 @@ logs/*
 node_modules/
 bower_components/
 dist/
+bin/
+obj/
 tmp
 .DS_Store
 .idea
-.pdb
-.dll
+*.pdb
+*.dll
