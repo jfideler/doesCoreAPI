@@ -248,60 +248,60 @@
         <link id="services">
           <pageid>services</pageid>
           <title>Eagan Tech - Services.</title>
-          <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+          <Url>#services</Url>
           <label>Services</label>
           <sublink id="services.assembly">
             <pageid>services.assembly</pageid>
             <title>Eagan Tech - Assembly.</title>
-            <Url>#services.assembly</Url>
+            <Url>#services#assembly</Url>
             <label>Assembly Services</label>
           </sublink>
           <sublink>
             <pageid>services.mechanical</pageid>
             <title>Eagan Tech - Mechanical.</title>
-            <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url>#services#mechanical</Url>
             <label>Mechanical Services</label>
           </sublink>
           <sublink>
             <pageid>services.copierprinters</pageid>
             <title>Eagan Tech - Mechanical.</title>
-            <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url>#services#copierprinters</Url>
             <label>Copier, Laser, High Speed Printer</label>
           </sublink>
           <sublink>
             <pageid>services.siliconrubbermolding</pageid>
             <label>Silicone and Rubber Molding</label>
-            <Url>img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url>#services#siliconrubbermolding</Url>
             <title> Mechanical Services</title>
           </sublink>
           <sublink id="services.schematics">
             <pageid>services.schematics</pageid>
             <label>Schematics</label>
-            <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url>#services#schematics</Url>
             <title>"Mechanical Services"</title>
           </sublink>
           <sublink id="services.reverseengineering">
             <pageid>services.reverseengineering</pageid>
             <label>Reverse Engineering</label>
-            <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url> #services#reverseengineering</Url>
             <title> Mechanical Services</title>
           </sublink>
         </link>
         <link id= "products">
           <pageid>products</pageid>
           <label>Products</label>
-          <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg"</Url>
+          <Url> #products</Url>
           <title> Eagan Tech - Products. </title>
           <sublink id="products.pvd">
             <pageid>products.pvd</pageid>
             <label>Pressure Vapor Deposition</label>
-            <Url> "img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url> #products#pvd</Url>
             <title> ETS: Pressure Vapor Deposition </title>
           </sublink>
           <sublink id="products.other">
             <pageid>products.other</pageid>
             <label>Other Products</label>
-            <Url> img/phones/motorola-xoom-with-wi-fi.0.jpg</Url>
+            <Url> #products#other</Url>
             <title> ETS: Other Products </title>
           </sublink>
         </link>
