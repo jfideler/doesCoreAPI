@@ -3,69 +3,48 @@
     <pages>
       <page id="home">
         <section class="content-wrapper main-content clear-fix">
-          <h1>Welcome to Lurch Montgomery</h1>
+          <h1>Lurch Montgomery</h1>
           <p>
-            <img src="app/content/images/etsSamples.jpg" alt="PVD" style="float:right; margin:0 0 12px 18px;"/>
-
-            is an engineering firm located near the Minneapolis-St. Paul International Airport
-            in Minnesota. We provide unusual talent and skills to take on projects other firms have turned down.
-            Founded by engineers in 1991, we are able to relate to engineers.
-            <br/>
-            <br/>
-            You will not talk to sales people at Eagan Technical Services.
-            You will only talk to engineers who understand your technical needs and can give you a 'yes' or 'no' answer on your
-            projects quickly - allowing you to focus on other aspects of your project.<br/>
-            <br/>
-            Give Eagan Technical Services a try; we succeed where others have failed.
+            <img src="app/content/images/pic.png" alt="PVD" style="float:right; margin:0 0 12px 18px;"/>
+            is a faque (fake) artist who's core belief is that "everything is B.S." (including that statement).<br/>
           </p>
           <p>
-            We are excited to announce the arrival of our new PVD machine. Medical, industrial and custom jobs--whether
-            they are small, medium or large volume--are no problem. We have the experience and ability to work through
-            any design problem or situation. Custom built to our specifications we can coat any of your critical
-            parts with any of the standard coatings (TiN, CrN, AlTiN) along with any custom material you need.
-            We have sputtering capability also.
+           While you are here, you can explore his portfolio of paintings, literary works, music and Philosophy.
+          </p>
+          <p>We hope you too come to realize that it's all B.S.!
           </p>
         </section>
       </page>
       
       <page id="about">
         <section class="content-wrapper main-content clear-fix">
-          <h1>About Us</h1>
+          <h1>About Lurch</h1>
           <p>
-            Eagan Technical Services, Inc. has been proudly serving the Mendota Heights, Minnesota area for 20 years.
-            We have built our customer base through hard work and determination, something that has allowed us to become the company we are today.
-            We take great pride in providing you with top-level service and promise complete satisfaction when choosing us for all
-            of your industrial material needs.
+            Lurch Montgomery. has been proudly serving the Milky Way galaxy, for over 20 years.
+            He has built his customer base through hard work and determination, something that has allowed him to become the loser he is today.
+            He takes great pride in providing you with assinine drivel in many forms
           </p>
 
-          <h1>Our Philosophy</h1>
+          <h1>My Philosophy</h1>
 
           <p>
-            Eagan Technical Services, Inc. provides business, industry and government with electronic software and mechanical contract engineering.
-            Our size gives us flexibility, ensuring a quick turn-around for the custom project.
-            From assistance in initial design and prototyping to complete assembly, we work with you to deliver a quality product.
+           It's all B.S. (including this remark)
           </p>
 
-          <p>
-            We are excited to announce our silicone and rubber molding capabilities. Medical, industrial and custom jobs--whether they are small,
-            medium or large volume--are no problem. We have the experience and ability to work through any design problem or situation.
-            We insert mold or custom blend materials and colors. We offer low cost tooling for small volume jobs, or can tool for multiple
-            cavities and lower the cost of parts. Silicone molding is a specialized fieldâ-and we have the experience to make your idea a success.
-            Eagan Technical Services, Inc., succeeding where others fail.
-          </p>
+        
         </section>
       </page>
 
       <page id="contact">
         <section class="content-wrapper main-content clear-fix">
           <h1>Contact Us</h1>
-          <p>Eagan Technical Services, Inc. provides assembly, electronics and mechanical for Mendota Heights, Minnesota and the surrounding areas. Contact us today for more information. We always enjoy hearing from our customers, whether they are returning or new and we look forward to earning your business and trust.</p>
+          <p>Lurch Montgomery provides assembly, electronics and mechanical for Mendota Heights, Minnesota and the surrounding areas. Contact us today for more information. We always enjoy hearing from our customers, whether they are returning or new and we look forward to earning your business and trust.</p>
           <div style="float:left; width:276px;">
             <p>
-              <strong>Eagan Technical Services, Inc.</strong><br/>
-              1408 Northland Drive #304 <br/>
-              Mendota Heights, Minnesota 55120<br/>
-              Phone: 651.688.0098<br/>
+              <strong>Lurch Montgomery</strong><br/>
+              84XX LearnTo Drive <br/>
+              Mendota, Minnesota 55120<br/>
+              Phone: XXX.666.0000<br/>
               <a href="mailto:sales@eagantech.com">E-mail</a>
             </p>
           </div>
@@ -108,23 +87,25 @@
             <div style="clear:both;"></div>
           </div>
           <div style="float:left; width:276px;">
-            <iframe style="border:1px solid #ffffff;" width="276" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;output=embed"></iframe>
+            <iframe style="border:1px solid #ffffff;" width="276" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+            src="https://www.google.com/maps/place/Cairo,+Cairo+Governorate,+Egypt/@29.9501708,31.257408,11.01z/data=!4m5!3m4!1s0x14583fa60b21beeb:0x79dfb296e8423bba!8m2!3d30.0444196!4d31.2357116"></iframe>
             <br/>
             <small>
-              <a target="_blank" href="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;source=embed" style="text-align:left;" class="a_map">View Larger Map</a>
+              <a target="_blank" 
+              href="https://www.google.com/maps/place/Cairo,+Cairo+Governorate,+Egypt/@29.9501708,31.257408,11.01z/data=!4m5!3m4!1s0x14583fa60b21beeb:0x79dfb296e8423bba!8m2!3d30.0444196!4d31.2357116" style="text-align:left;" class="a_map">View Larger Map</a>
             </small>
           </div>
 
         </section>
       </page>
-    
+
       <page id="services">
         <section class="content-wrapper main-content clear-fix">
 <h1>Services</h1>
 <p id="services.assembly"><strong>Assembly</strong></p>
 <p>
     <img src="app/content/images/services_1.jpg" alt="Compass" title="Compass" style="float:right; margin:0 0 12px 18px;"/>
-    Eagan Technical Services, Inc. can bring any product to life through our assembly area. Specializing in labor-intensive technical assembly,
+    Lurch Montgomery can bring any product to life through our assembly area. Specializing in labor-intensive technical assembly,
     we are able to manufacture and assemble "one-of-a kind" equipment and products. We work with plastics, metals, elastomers and composites.
     Our capabilities include assembly of electronic components, the mounting of electronic components to circuit boards, mechanical assembly
     and the testing of assembled products to specifications. We will work with you to obtain U.L. approval. Our size gives us flexibility to
@@ -132,13 +113,13 @@
 </p>
 <p id="services.mechanical"><strong>Mechanical</strong></p>
 <p>
-    On the Mechanical side, Eagan Technical Services, Inc. brings to the table a wide variety of skills and creative thinking developed over
+    On the Mechanical side, Lurch Montgomery brings to the table a wide variety of skills and creative thinking developed over
     years of planning, nurturing and completing projects that our customers have dreamed of. We use our "artistic" thinking in providing
     innovative and surprising results for our customers. We make prototype tools in-house and use a modular approach in prototype building,
     which saves our customers money. We also consult with firms or handle the entire project.
 </p>
 <p id="services.copier"><strong>Copier, Laser, High Speed Printer Rollers</strong></p>
-  <p>Eagan Technical Services, Inc. provides a wide variety of services for our customers who use rollers of varying types in servicing
+  <p>Lurch Montgomery provides a wide variety of services for our customers who use rollers of varying types in servicing
     electronic data processing, banking, and other equipment. We reverse engineer almost any style of roller to reduce the cost to our
     customer versus the original equipment manufacturer. Specializing in IBM mag rollers (3800, 3900, 4100 series) these rollers are
     often better than the originals. We also provide a rebuilding service to thoroughly refurbish copiers and high-speed laser and
@@ -147,7 +128,7 @@
 </p>
 <p id="services.rubber"><strong>Silicone and Rubber Molding</strong></p>
     <p>
-    At Eagan Technical Services, Inc., we will take on your silicone and rubber specialty molding projects. We do precision work for
+    At Lurch Montgomery, we will take on your silicone and rubber specialty molding projects. We do precision work for
     medical, military, and industrial customers using state of the art materials including fluoropolymers. We also have developed a
     process to bond silicone to Teflon products such as DuPont Viton, as well as low-cost problem solving projects for lower tech products.
     We work directly with custom blenders of materials, as well as using off the shelf materials. You specify your products requirements,
@@ -221,7 +202,7 @@
 
 <p id="products.other"></p><h1>Other Products</h1><p></p>
 <p>
-    Eagan Technical Services, Inc. offers a wide variety of products that will meet your needs. We stand behind everything that we offer
+    Lurch Montgomery offers a wide variety of products that will meet your needs. We stand behind everything that we offer
     because all of our products are of the highest quality, which will ensure customer satisfaction.
 </p>
 <p>Some of the products that we are currently offering include:</p>
@@ -232,17 +213,17 @@
     <li>PVD coating services</li>
 </ul>
 <p>If you have any questions or comments about our products, please <a href="contact">contact us</a>.</p>
-
-
-                            </section>
+</section>
       </page>
     </pages>
+
+    
     <navigation>
       <links>
         <link id="home">
-          <pageid>lurch</pageid>
+          <pageid>home</pageid>
           <title> Tech - Home.</title>
-          <Url>#!/main</Url>
+          <Url>#!/home</Url>
           <label>lurch...</label>
         </link>
         <link id="paintings">
@@ -290,14 +271,14 @@
      
         <link id="contact">
           <pageid>contact</pageid>
-          <title>Eagan Tech - Contact.</title>
-          <Url>#!/contact</Url>
+          <title>Lurch Montgomery - Contact.</title>
+          <Url>contact</Url>
           <label>Contact</label>
         </link>
         <link >
           <pageid>about</pageid>
-          <title>Eagan Tech - About</title>
-          <Url>#!/about</Url>
+          <title>Lurch Montgomery - About</title>
+          <Url>about</Url>
           <label>About</label>
         </link>
 
