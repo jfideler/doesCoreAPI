@@ -1,0 +1,324 @@
+﻿<site>
+  <content>
+    <pages>
+      <page id="home">
+        <section class="content-wrapper main-content clear-fix">
+          <h1>Welcome to Eagan Technical Services</h1>
+          <p>
+            <img src="app/content/images/etsSamples.jpg" alt="PVD" style="float:right; margin:0 0 12px 18px;"/>
+
+            is an engineering firm located near the Minneapolis-St. Paul International Airport
+            in Minnesota. We provide unusual talent and skills to take on projects other firms have turned down.
+            Founded by engineers in 1991, we are able to relate to engineers.
+            <br/>
+            <br/>
+            You will not talk to sales people at Eagan Technical Services.
+            You will only talk to engineers who understand your technical needs and can give you a 'yes' or 'no' answer on your
+            projects quickly - allowing you to focus on other aspects of your project.<br/>
+            <br/>
+            Give Eagan Technical Services a try; we succeed where others have failed.
+          </p>
+          <p>
+            We are excited to announce the arrival of our new PVD machine. Medical, industrial and custom jobs--whether
+            they are small, medium or large volume--are no problem. We have the experience and ability to work through
+            any design problem or situation. Custom built to our specifications we can coat any of your critical
+            parts with any of the standard coatings (TiN, CrN, AlTiN) along with any custom material you need.
+            We have sputtering capability also.
+          </p>
+        </section>
+      </page>
+      
+      <page id="about">
+        <section class="content-wrapper main-content clear-fix">
+          <h1>About Us</h1>
+          <p>
+            Eagan Technical Services, Inc. has been proudly serving the Mendota Heights, Minnesota area for 20 years.
+            We have built our customer base through hard work and determination, something that has allowed us to become the company we are today.
+            We take great pride in providing you with top-level service and promise complete satisfaction when choosing us for all
+            of your industrial material needs.
+          </p>
+
+          <h1>Our Philosophy</h1>
+
+          <p>
+            Eagan Technical Services, Inc. provides business, industry and government with electronic software and mechanical contract engineering.
+            Our size gives us flexibility, ensuring a quick turn-around for the custom project.
+            From assistance in initial design and prototyping to complete assembly, we work with you to deliver a quality product.
+          </p>
+
+          <p>
+            We are excited to announce our silicone and rubber molding capabilities. Medical, industrial and custom jobs--whether they are small,
+            medium or large volume--are no problem. We have the experience and ability to work through any design problem or situation.
+            We insert mold or custom blend materials and colors. We offer low cost tooling for small volume jobs, or can tool for multiple
+            cavities and lower the cost of parts. Silicone molding is a specialized fieldâ-and we have the experience to make your idea a success.
+            Eagan Technical Services, Inc., succeeding where others fail.
+          </p>
+        </section>
+      </page>
+
+      <page id="contact">
+        <section class="content-wrapper main-content clear-fix">
+          <h1>Contact Us</h1>
+          <p>Eagan Technical Services, Inc. provides assembly, electronics and mechanical for Mendota Heights, Minnesota and the surrounding areas. Contact us today for more information. We always enjoy hearing from our customers, whether they are returning or new and we look forward to earning your business and trust.</p>
+          <div style="float:left; width:276px;">
+            <p>
+              <strong>Eagan Technical Services, Inc.</strong><br/>
+              1408 Northland Drive #304 <br/>
+              Mendota Heights, Minnesota 55120<br/>
+              Phone: 651.688.0098<br/>
+              <a href="mailto:sales@eagantech.com">E-mail</a>
+            </p>
+          </div>
+          <div style="float:left; width:276px;">
+            <p style="margin:0;">
+              <strong>Hours of Operation:</strong>
+            </p>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Monday:</td>
+                  <td>7:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Tuesday:</td>
+                  <td>7:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Wednesday:</td>
+                  <td>7:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Thursday:</td>
+                  <td>7:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Friday:</td>
+                  <td>7:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday:</td>
+                  <td>Closed</td>
+                </tr>
+                <tr>
+                  <td>Sunday:</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+            <div style="clear:both;"></div>
+          </div>
+          <div style="float:left; width:276px;">
+            <iframe style="border:1px solid #ffffff;" width="276" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;output=embed"></iframe>
+            <br/>
+            <small>
+              <a target="_blank" href="http://maps.google.ca/maps?q=1408+Northland+Drive+%23304+Mendota+Heights,+Minnesota+55120&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=1408+Northland+Dr,+Mendota+Heights,+Dakota,+Minnesota+55120,+United+States&amp;gl=ca&amp;z=14&amp;ll=44.863584,-93.168009&amp;source=embed" style="text-align:left;" class="a_map">View Larger Map</a>
+            </small>
+          </div>
+
+        </section>
+      </page>
+    
+      <page id="services">
+        <section class="content-wrapper main-content clear-fix">
+<h1>Services</h1>
+<p id="services.assembly"><strong>Assembly</strong></p>
+<p>
+    <img src="app/content/images/services_1.jpg" alt="Compass" title="Compass" style="float:right; margin:0 0 12px 18px;"/>
+    Eagan Technical Services, Inc. can bring any product to life through our assembly area. Specializing in labor-intensive technical assembly,
+    we are able to manufacture and assemble "one-of-a kind" equipment and products. We work with plastics, metals, elastomers and composites.
+    Our capabilities include assembly of electronic components, the mounting of electronic components to circuit boards, mechanical assembly
+    and the testing of assembled products to specifications. We will work with you to obtain U.L. approval. Our size gives us flexibility to
+    provide for special packaging and shipping needs, assuring a quick turnaround for custom projects.
+</p>
+<p id="services.mechanical"><strong>Mechanical</strong></p>
+<p>
+    On the Mechanical side, Eagan Technical Services, Inc. brings to the table a wide variety of skills and creative thinking developed over
+    years of planning, nurturing and completing projects that our customers have dreamed of. We use our "artistic" thinking in providing
+    innovative and surprising results for our customers. We make prototype tools in-house and use a modular approach in prototype building,
+    which saves our customers money. We also consult with firms or handle the entire project.
+</p>
+<p id="services.copier"><strong>Copier, Laser, High Speed Printer Rollers</strong></p>
+  <p>Eagan Technical Services, Inc. provides a wide variety of services for our customers who use rollers of varying types in servicing
+    electronic data processing, banking, and other equipment. We reverse engineer almost any style of roller to reduce the cost to our
+    customer versus the original equipment manufacturer. Specializing in IBM mag rollers (3800, 3900, 4100 series) these rollers are
+    often better than the originals. We also provide a rebuilding service to thoroughly refurbish copiers and high-speed laser and
+    printer rollers. We work with a variety of coatings and internal components of these high-cost rollers. We do fuser rollers,
+    backup rollers, magnetic toner feed rollers, feed, idler and print rollers. Please call us to help you with your roller needs.
+</p>
+<p id="services.rubber"><strong>Silicone and Rubber Molding</strong></p>
+    <p>
+    At Eagan Technical Services, Inc., we will take on your silicone and rubber specialty molding projects. We do precision work for
+    medical, military, and industrial customers using state of the art materials including fluoropolymers. We also have developed a
+    process to bond silicone to Teflon products such as DuPont Viton, as well as low-cost problem solving projects for lower tech products.
+    We work directly with custom blenders of materials, as well as using off the shelf materials. You specify your products requirements,
+    and we will select a material to fit your needs. We have taken on projects that other molding companies have turned down because of
+    lack of volume, or their inability to make a product to the customerâs needs. We pride ourselves in having the expertise to make your
+    product the way you need it.<br/>
+    </p>
+<p id="services.schematics"><strong>Schematics</strong></p>
+<p>A schematic diagram can be reverse engineered for circuitry currently undocumented or inadequately documented. Beginning with a visual inspection,
+    we determine cost and approximate length of time to complete the drawing. Any technical information or data available will favorably
+    influence both cost and lead-time. Using Computer Aided Design (CAD) and Computer Aided Engineering (CAE), we are able to re-engineer accurate,
+    well laid out schematics for whole units, including power supplies, circuit boards and displays.
+</p>
+<p id="services.reverse"><strong>Reverse Engineering</strong></p>
+<p>
+    Worn out or broken parts are often too expensive to replace, or are no longer available. A re-engineered part can actually cost less to
+    manufacture than the original part and results in a more reliable, less expensive unit to maintain. All we need to start is a sample.
+    A comprehensive evaluation is performed, determining material and labor required to complete the project. We carefully consider the options
+    to determine which part or tool is best suited for your product.
+</p>
+<p>
+    Next, a drawing is generated and used in the design and fabrication of a prototype. The prototype is then tested, establishing a model
+    for production.
+</p>
+
+</section>
+      </page>
+    
+      <page id="products">
+        <section class="content-wrapper main-content clear-fix">
+                                
+
+
+<p id="products.pvd"></p><h1>Pressure Vapor Deposition (PVD)</h1><p></p>
+<p>
+    <img src="app/content/images/i_home.jpg" alt="pvd" title="pvd" style="float:right; margin:0 0 12px 18px;"/>
+    We all know machines and their parts wear. More and more processes are brought to their knees by outages caused by wear of individual components. Wear protection is becoming increasingly important to keep production running and maintenance costs to a minimum. Thin layer, multilayer coatings have proved themselves in all applications.
+    What we know that these coatings – PVD (Pressure Vapor Deposition) coatings:
+    
+    </p><ul>
+        <li>extremely hard</li>
+        <li>self harden to provide sliding protection</li>
+        <li>increase tool and component life</li>
+        <li>decrease pressures used in production</li>
+        <li>they lower machine operating temperatures</li>
+    </ul>
+
+<p>
+    These coatings are extremely thin and do not alter the dimensions of the part as they become part of the crystalline structure of the base material.
+    They also add a cosmetic plus to the parts, which when worn away tells the operator it is time to take the tool or part out for recoating.
+    The PVD process is environmentally clean and will not change the properties of the substrate.
+    We use the evaporation by arc process. In this process the material being deposited is evaporated by striking an arc on its surface whereby the vapor particles are accelerated towards the component being coated and drawn to it via a bias current supplied to the component. High energy levels create a plasma cloud allowing the particles to penetrate into the grains of the substrate metal.
+    </p>
+<img src="app/content/images/arccathode.jpg"/>
+<p>
+    Arc running on a cathode.
+
+    TiAlN
+    Titanium Aluminum. Adding aluminum to the TiN mix increases hardness and oxidation stability of the coating, resulting in longer tool life especially cutting tools running at high speed.
+    CrN
+    Chromium Nitride has a lowstress structure which allows for thicker coatings which gives it better corrosion resistance than standard TiN. This coating is over twice as hard as standard hard chrome plating, self hardens and allows parts to slide freely on one another.
+    TiCN
+    Titanium Carbo Nitride give longer tool life, higher cutting speeds, have good adhesion and low coefficient of friction
+    These are some of the standard coatings we apply. We have several proprietary multi layer coatings that have increased tool life up to 8 times over standard coatings. We would like to hear from you to discuss any special requirement you may have.
+</p>
+<img src="app/content/images/pvdflow.jpg"/>
+<p>
+    </p><h2>Standard chamber setup</h2>
+    Our quick setup and turn around and our willingness to develop and experiment with special coatings per your needs makes us an easy choice. Please give us a call to discuss.
+<p></p>
+
+<p id="products.other"></p><h1>Other Products</h1><p></p>
+<p>
+    Eagan Technical Services, Inc. offers a wide variety of products that will meet your needs. We stand behind everything that we offer
+    because all of our products are of the highest quality, which will ensure customer satisfaction.
+</p>
+<p>Some of the products that we are currently offering include:</p>
+<ul style="list-style-type:square;">
+    <li> Rubber molding</li>
+    <li>IBM 4000</li>
+    <li>4100 mag rollers and others</li>
+    <li>PVD coating services</li>
+</ul>
+<p>If you have any questions or comments about our products, please <a href="contact">contact us</a>.</p>
+
+
+                            </section>
+      </page>
+    </pages>
+    <navigation>
+      <links>
+        <link id="home">
+          <pageid>home</pageid>
+          <title>Eagan Tech - Home.</title>
+          <Url>#!/main</Url>
+          <label>Home</label>
+        </link>
+        <link id="services">
+          <pageid>services</pageid>
+          <title>Eagan Tech - Services.</title>
+          <Url>#services</Url>
+          <label>Services</label>
+          <sublink id="services.assembly">
+            <pageid>services.assembly</pageid>
+            <title>Eagan Tech - Assembly.</title>
+            <Url>#services#assembly</Url>
+            <label>Assembly Services</label>
+          </sublink>
+          <sublink>
+            <pageid>services.mechanical</pageid>
+            <title>Eagan Tech - Mechanical.</title>
+            <Url>#services#mechanical</Url>
+            <label>Mechanical Services</label>
+          </sublink>
+          <sublink>
+            <pageid>services.copierprinters</pageid>
+            <title>Eagan Tech - Mechanical.</title>
+            <Url>#services#copierprinters</Url>
+            <label>Copier, Laser, High Speed Printer</label>
+          </sublink>
+          <sublink>
+            <pageid>services.siliconrubbermolding</pageid>
+            <label>Silicone and Rubber Molding</label>
+            <Url>#services#siliconrubbermolding</Url>
+            <title> Mechanical Services</title>
+          </sublink>
+          <sublink id="services.schematics">
+            <pageid>services.schematics</pageid>
+            <label>Schematics</label>
+            <Url>#services#schematics</Url>
+            <title>"Mechanical Services"</title>
+          </sublink>
+          <sublink id="services.reverseengineering">
+            <pageid>services.reverseengineering</pageid>
+            <label>Reverse Engineering</label>
+            <Url> #services#reverseengineering</Url>
+            <title> Mechanical Services</title>
+          </sublink>
+        </link>
+        <link id= "products">
+          <pageid>products</pageid>
+          <label>Products</label>
+          <Url> #products</Url>
+          <title> Eagan Tech - Products. </title>
+          <sublink id="products.pvd">
+            <pageid>products.pvd</pageid>
+            <label>Pressure Vapor Deposition</label>
+            <Url> #products#pvd</Url>
+            <title> ETS: Pressure Vapor Deposition </title>
+          </sublink>
+          <sublink id="products.other">
+            <pageid>products.other</pageid>
+            <label>Other Products</label>
+            <Url> #products#other</Url>
+            <title> ETS: Other Products </title>
+          </sublink>
+        </link>
+        <link id="contact">
+          <pageid>contact</pageid>
+          <title>Eagan Tech - Contact.</title>
+          <Url>#!/contact</Url>
+          <label>Contact</label>
+        </link>
+        <link >
+          <pageid>about</pageid>
+          <title>Eagan Tech - About</title>
+          <Url>#!/about</Url>
+          <label>About</label>
+        </link>
+
+      </links>
+    </navigation>
+  </content>
+</site>
