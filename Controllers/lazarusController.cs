@@ -15,7 +15,7 @@ namespace DoesCoreApi.Controllers
     public class LazarusController : ControllerBase
     {
         // GET api/values
-        [EnableCors]  
+        // [EnableCors]  
         [HttpGet]
         public ActionResult<string> Get()
         {
@@ -24,7 +24,7 @@ namespace DoesCoreApi.Controllers
         }
 
         // GET api/values/5
-        [EnableCors]  
+        // [EnableCors]  
         [HttpGet("{id}")]
         public ActionResult<string> Get(string id)
         {
